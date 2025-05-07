@@ -1,0 +1,474 @@
+@media (max-width: 435px) {
+    html,body{
+        overflow-x: hidden;
+    }
+
+    /* HEADER */
+    header{
+        & .banner{
+            text-align: center;
+
+
+            & h4{
+                font-size: 12px;
+            }
+
+            & a{
+                font-size: 12px;
+            }
+        }
+
+        .header{
+
+            & nav{
+                text-align: center;
+                
+                & .navbar-toggler{
+                background-color: transparent;
+                border: 1px solid #D61E46;
+                color: #FFFFFF;
+                }
+
+                & .navbar-toggler-icon {
+                    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+                }
+
+            
+            }
+
+            & .apply-now-btn{
+                background-color: #D61E46;
+                color: #FFFFFF;
+                height: 100% !important;
+                padding: 2% 1%;
+            }
+
+            & .apply-now-btn:hover{
+                background-color: #dc0030;
+                color: #FFFFFF;
+                cursor: pointer;
+                
+            }
+        }
+    }
+
+    /* MAIN */
+    #hero{
+        overflow-x: hidden;
+    
+        & .left-side{
+            & .hero-container{
+                & h1{
+                    font-size: 28px;
+                    text-align: center;
+                    margin-left: 0;
+                }
+
+                & p{
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+            
+
+            
+        }
+
+    }
+
+    #navigation{
+        display: none;
+    }
+
+    #programOverview{
+        padding: 5% 0;
+    
+        & .intro{
+            margin-bottom: 5% !important;
+    
+            & h3{
+                font-size: 28px;
+                text-align: center;
+            }
+    
+            & h6{
+                font-size: 20px;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+        }
+    
+        & .program {
+        
+            & h4 {
+                font-size: 22px;
+            }
+        
+            & p {
+                font-size: 16px;
+                opacity: 1;  
+            }
+        }
+    
+        & .program-2{
+            background-position: center top 0;
+        }
+    
+        & .program-4{
+            background-position: center top 0;
+        }
+    
+        & .outro{
+            margin-top: 5% !important;
+    
+            & p{
+                font-size: 16px;
+            }
+        }
+    
+    }
+
+    #careerOpportunities{
+    
+        & h3{
+            font-size: 28px;
+            text-align: center;
+        }
+    
+        & .description{
+            & h6{
+                font-size: 18px;
+            }
+    
+            & ul>li{
+                font-size: 16px;
+            }
+        }
+    }
+
+    #topEmployers{
+    
+        & h3{
+            font-size: 28px;
+            text-align: center;
+        }
+    
+        & .logos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+    }
+
+    #success{
+    
+        & .intro{
+            margin-bottom: 5% !important;
+    
+            & h3{
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 3% !important;
+            }
+        }
+    
+        & .content{
+            height: 300px;
+
+            & h6,
+            & span{
+                font-size: 40px;
+            }
+    
+            & p{
+                font-size: 18px;
+            }
+        }
+    }
+
+    #ourStudents{
+    
+        & h3{
+            font-size: 28px;
+            margin-bottom: 5% !important;
+            text-align: center;
+        }
+    
+        & p{
+            font-size: 18px;
+        }
+    
+        & .universities{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    #studentProjects{
+        padding: 5% 0;
+    
+        & h3{
+            font-size: 28px;
+        }
+    
+        & p{
+            font-size: 18px;
+        }
+    
+        & .card{
+            width: 100%;
+    
+            & img{
+                margin-bottom: 5% !important;
+            }
+    
+            & p{
+                font-size: 16px;
+            }
+        }
+
+        & .slider-container-projects{
+            position: relative !important;
+            overflow: hidden !important;
+        
+            & .slider-projects{
+                display: flex !important;
+                transition: transform 0.5s ease-in-out !important;
+        
+                & .slide-project{
+                    min-width: 100% !important;
+                    box-sizing: border-box !important;
+                }
+            }
+        }
+    }
+
+    #exampleProjects{
+        padding: 5% 0;
+        
+        & .example-projects-inner{
+    
+            & h3{
+                font-size: 28px;
+            }
+    
+            & .left-side,
+            & .right-side{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                height: 100%;
+                padding: 5% 0;
+    
+                & img{
+                    height: 240px;
+                }
+    
+                & h6{
+                    font-size: 18px;
+                }
+    
+                & p{
+                    font-size: 16px;
+                }
+            }
+    
+            & .left-side{
+                border-bottom: 1px solid #000000;
+                border-right: none;
+            }
+    
+            & .col-12{
+                padding: 0 !important;
+            }
+        }
+    }
+
+    #programStructure{
+        padding: 5% 0;
+    
+        & h3{
+            font-size: 28px;
+        }
+    
+        & p{
+            font-size: 18px;
+            margin-bottom: 5% !important;
+        }
+    
+        & .structures{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            gap: 30px;
+            position: relative;
+            
+    
+            & .structure{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 20px;
+                width: 230px;
+    
+                & h6{
+                    font-size: 18px;
+                }
+    
+                & p{
+                    font-size: 16px;
+                }
+            }
+    
+            & .arrow-1{
+                position: absolute;
+                rotate: 90deg;
+                top: 15%;
+                left: 55%;
+            }
+    
+            & .arrow-2{
+                position: absolute;
+                rotate: 90deg;
+                top: 40%;
+                left: -10%;
+            }
+    
+            & .arrow-3{
+                position: absolute;
+                rotate: 90deg;
+                top: 70%;
+                left: 60%;
+            }
+        }
+    
+    }
+
+    #lecturers{
+        padding: 5% 0;
+    
+        & h3{
+            font-size: 28px;
+            margin-bottom: 5% !important;
+        }
+    
+        & p{
+            font-size: 18px;
+            margin-bottom: 5% !important;
+        }
+    
+        & .card-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+    
+            & .card{
+        
+                & h6{
+                    font-size: 18px;
+                }
+        
+                & p{
+                    font-size: 16px;
+                }
+        
+                
+            }
+        }
+    }
+
+    #careerPathways{
+        padding: 5% 0;
+    
+        & h3{
+            font-size: 28px;
+            margin-bottom: 5% !important;
+        }
+
+        & .bottom-text{
+            margin-top: 5% !important;
+            font-size: 18px;
+        }
+    }
+
+    #studentTestimonials{
+    
+        & h3{
+            font-size: 28px;
+            margin-bottom: 5% !important;
+        }
+
+    
+        & .testimonial{
+            border-left: none;
+            padding: 0 5%;
+            margin-bottom: 5% !important;
+        }
+    
+    
+        & .content{
+            height: 300px;
+    
+            & h6,
+            & span{
+                font-size: 40px;
+            }
+    
+            & p{
+                font-size: 18px;
+            }
+        }
+    
+    }
+
+    /* FOOTER */
+
+    footer{
+        padding: 0;
+        margin: 1% !important;
+
+        & .card{
+            height: fit-content;
+    
+            & .card-inner{
+                padding: 5%;
+
+    
+                & h2{
+                    font-size: 28px;
+                    text-align: center;
+                }
+    
+                & .stroke{
+                    display: none;
+                }
+    
+                & p, span{
+                    text-align: center;
+                }
+    
+                & button{
+                    font-size: 16px;
+                    width: 100%;
+                }
+
+                & .persons{
+                    display: none;
+                }
+            }
+        }
+            
+    }
+}
+

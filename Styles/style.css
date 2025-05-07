@@ -1,0 +1,74 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Maitree' !important;
+
+    p,h1,h2,h3,h4,h5,h6{
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+/* HEADER */
+
+header{
+    & .banner{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        & h4{
+            font-size: 18px;
+            font-weight: 700;
+            color: #000000;
+        }
+
+        & a{
+            font-size: 16px;
+            font-weight: 500;
+            color: #808080;
+        }
+    }
+
+    .header{
+        background-color: #000000;
+
+        & nav{
+            & .nav-link{
+                color: #FFFFFF;
+            }
+            
+            & .nav-link.active,
+            & .nav-link:hover{
+                font-weight: 900;
+                color: #FFFFFF;
+            }
+
+           
+        }
+
+        & .navbar,
+        & .nav-link{
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+
+        & .apply-now-btn{
+            background-color: #D61E46;
+            color: #FFFFFF;
+            height: 100% !important;
+            padding: 2% 1%;
+            transform: background-color 0.5s ease-in-out;
+        }
+
+        & .apply-now-btn:hover{
+            background-color: #dc0030;
+            color: #FFFFFF;
+            cursor: pointer;
+            
+        }
+    }
+}

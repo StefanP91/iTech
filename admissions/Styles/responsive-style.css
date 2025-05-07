@@ -1,0 +1,570 @@
+@media (max-width: 435px) {
+    html,body{
+        overflow-x: hidden;
+    }
+
+    /* HEADER */
+    header{
+        & .banner{
+            text-align: center;
+
+
+            & h4{
+                font-size: 12px;
+            }
+
+            & a{
+                font-size: 12px;
+            }
+        }
+
+        .header{
+
+            & nav{
+                text-align: center;
+                
+                & .navbar-toggler{
+                background-color: transparent;
+                border: 1px solid #D61E46;
+                color: #FFFFFF;
+                }
+
+                & .navbar-toggler-icon {
+                    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+                }
+
+            
+            }
+
+            & .apply-now-btn{
+                background-color: #D61E46;
+                color: #FFFFFF;
+                height: 100% !important;
+                padding: 2% 1%;
+            }
+
+            & .apply-now-btn:hover{
+                background-color: #dc0030;
+                color: #FFFFFF;
+                cursor: pointer;
+                
+            }
+        }
+    }
+
+    /* MAIN */
+    #hero{
+        overflow-x: hidden;
+    
+        & .left-side{
+            & .hero-container{
+                & h1{
+                    font-size: 28px;
+                    text-align: center;
+                    margin-left: 0;
+                }
+
+                & p{
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+            
+
+            
+        }
+
+    }
+
+    #navigation{
+        display: none;
+    }
+
+    #welcome{
+        padding: 5% 0;
+    
+        & .left-side{
+            & p{
+                font-size: 16px;
+                margin-bottom: 3% !important;
+            }
+        }
+    }
+
+    #magnetPrograms{
+        padding: 5% 0;
+    
+        & .intro{
+            margin-bottom: 3% !important;
+    
+            & h3{
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 1% !important;
+            }
+        }
+    
+        & .slide-programs{
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            & h6{
+                font-size: 18px;
+                font-weight: 700;
+                color: #FFFFFF;
+                background-color: rgba(214, 66, 66, 0.88);
+                margin-top: 10% !important;
+                margin-bottom: 10% !important;
+                padding: 20px;
+                text-align: center;
+
+            }
+
+            & p{
+                font-size: 16px;
+                font-weight: 500;
+                color: #FFFFFF;
+                text-align: center;
+                display: block;
+                padding: 0 5%;
+            }
+        }
+
+
+        & .program-1{
+            background-image: url('../images/program-1-bg.svg');
+            background-size: cover;
+            background-position:center top 20%;
+        }
+
+        & .program-2{
+            background-image: url('../images/program-2-bg.svg');
+            background-size: cover;
+            background-position: center top 5%;
+        }
+
+        & .program-3{
+            background-image: url('../images/program-3-bg.svg');
+            background-size: cover;
+            background-position: center top 20%;
+        }
+
+        & .program-4{
+            background-image: url('../images/program-4-bg.svg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        & .slider-container-programs{
+            position: relative !important;
+            overflow: hidden !important;
+
+            & .slider-programs{
+                display: flex !important;
+                transition: transform 0.5s ease-in-out !important;
+
+                & .slide-programs{
+                    min-width: 100% !important;
+                    box-sizing: border-box !important;
+                }
+            }
+        }
+    
+        & .outro{
+            margin-top: 3% !important;
+            text-align: center;
+    
+            & h3{
+                font-size: 28px;
+                margin-bottom: 3% !important;
+            }
+    
+            & p{
+                font-size: 16px;
+                text-align: start;
+            }
+        }
+    }
+
+    #attendPrograms{
+        margin: 5% 0;
+        background-image: none;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        & .attendProgramsInner{
+            width: 100%;
+            margin-bottom: 0;
+        }
+    
+        & h3{
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 5% !important;
+        }
+    
+        & p{
+            font-size: 18px;
+        }
+    
+    
+    }
+
+    #howToApply{
+    
+        & .howToApplyInner{
+    
+            & .left-side{
+    
+                & h3{
+                    font-size: 28px;
+                    text-align: center;
+                    margin-bottom: 3% !important;
+                }
+    
+                & p{
+                    font-size: 18px;
+                }
+    
+                & ul>li{
+                    font-size: 16px;
+                }
+    
+                & a{
+                    color: #000000;
+                    text-decoration: underline;
+                }
+    
+            }
+
+            & .right-side{
+                margin-bottom: 3% !important;
+            }
+    
+            & .outro{
+                & h3{
+                    font-size: 28px;
+                    text-align: center;
+                    margin-bottom: 3% !important;
+                }
+    
+                & p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    #timeline{
+    
+        & .timelineInner{
+    
+            & h3{
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 3% !important;
+            }
+    
+            & .admissions-container{
+                & .admission{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    height: fit-content;
+                    padding: 5% 3%;
+    
+                    & p{
+                        font-size: 16px;
+                    }
+                }
+    
+                & .grey-admission{
+                    background-color: #F6F5F4;
+                }
+    
+                & h4{
+                    font-size: 18px;
+                    text-align: center;
+                }
+    
+    
+            }
+        }
+    }
+
+    #studentsSelection{
+        padding: 5% 0;
+    
+        & .intro{
+            margin-bottom: 3% !important;
+    
+            & h3{
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 3% !important;
+            }
+    
+            & p{
+                font-size: 18px;
+            }
+        }
+    
+        & .selection-container{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+    
+            & .selection{
+                display: flex;
+                background-color: #FFFFFF;
+                height: 272px;
+    
+                & .text{
+                    gap: 20px;
+                    padding: 5%;
+                    width: 100%;
+    
+                    & p{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    #admissionCriteria{
+        padding: 5% 0 10% 0;
+        
+        & h3{
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 3% !important;
+        }
+    
+        & .criteria{
+            height: 348px;
+            padding: 0 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        & .criteria-inner{
+            padding: 5%;
+            margin-bottom: 0;
+
+        }
+    }
+
+    #considerationAndTransportation{
+        padding: 5% 0;
+        background-color: #FFFFFF;
+    
+        & .considerationAndTransportationInner{
+            & .left-side{
+                padding: 5%;
+    
+                & h3{
+                    font-size: 28px;
+                    margin-bottom: 5% !important;
+                }
+    
+                & ul>li{
+                    font-size: 16px;
+                }
+            }
+    
+            & .right-side{
+                border-top: 1px solid #000000;
+    
+                & h3{
+                    font-size: 28px;
+                    margin-bottom: 5% !important;
+                    text-align: center;
+                }
+    
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    #applyOnline{
+        padding: 5% 0;
+    
+        & .left-side{
+            gap: 20px;
+
+            & h3{
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 3% !important;
+            }
+    
+            & .hstack{
+                & h6{
+                    font-size: 18px;
+                }
+    
+                & p{
+                    font-size: 16px;
+                }
+    
+                & a{
+                    font-size: 16px;
+                }
+            }
+    
+            & .application-btn{
+                margin-top: 3% !important; 
+                width: 100%;
+            } 
+    
+        }
+
+    }
+
+    #importantLinks{
+        padding: 5% 0;
+        
+        & .importantLinksInner{
+    
+            & h3{
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 3% !important;
+            }
+    
+            & ul>li>a{
+                font-size: 16px;
+            }
+        }
+    }
+
+    #whyChoose{
+        padding: 5% 0;
+    
+        & h3{
+            font-size: 28px;
+        }
+    
+        & .black-card{
+            background-color: #000000;
+            padding: 5%;
+            display: flex;
+            flex-direction: column;
+    
+            & .text{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100%;
+                padding: 5% 0;
+    
+                & h6{
+                    font-size: 18px;
+                    text-align: center;
+                    margin-bottom: 5% !important;
+                }
+    
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+
+        & .mobile-black{
+            background-color: #000000 !important;
+
+            & .text{
+                & h6{
+                    color: #D64242 !important;
+                }
+
+                & p{
+                    color: #E3E3E3 !important;
+                }
+            }
+        }
+    
+        & .white-card{
+            background-color: #FFFFFF;
+            padding: 5%;
+            display: flex;
+            flex-direction: column;
+    
+            & .text{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100%;
+                padding: 5% 0;
+    
+                & h6{
+                    font-size: 18px;
+                    text-align: center;
+                    margin-bottom: 5% !important;
+                }
+    
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+
+        & .mobile-white{
+            background-color: #FFFFFF !important;
+
+            & .text{
+                & h6{
+                    color: #D64242 !important;
+                }
+
+                & p{
+                    color: #000000 !important; 
+                }
+            }
+        }
+    }
+
+    /* FOOTER */
+
+    footer{
+        padding: 0;
+        margin: 1% !important;
+
+        & .card{
+            height: fit-content;
+    
+            & .card-inner{
+                padding: 5%;
+
+    
+                & h2{
+                    font-size: 28px;
+                    text-align: center;
+                }
+    
+                & .stroke{
+                    display: none;
+                }
+    
+                & p, span{
+                    text-align: center;
+                }
+    
+                & button{
+                    font-size: 16px;
+                    width: 100%;
+                }
+
+                & .persons{
+                    display: none;
+                }
+            }
+        }
+            
+    }
+}
