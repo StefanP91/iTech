@@ -16,6 +16,7 @@
     <title>iTech | Homepage</title>
 
     <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/responsive-style.css">
     <link rel="stylesheet" href="Styles/fonts.css">
 
     <link rel="shortcut icon" href="images/favicon.svg" type="images/x-icon">
@@ -35,7 +36,7 @@
                 </a>
 
                 <div class="hstack gap-3 justify-content-center align-items-center">
-                    <img src="images/phone-icon.svg" alt="phone-icon">
+                    <img src="images/phone-icon.svg" alt="phone-icon" class="d-none d-lg-block">
 
                     <div class="vstack justify-content-center gap-1">
                         <h4>Phone Number</h4>
@@ -44,7 +45,7 @@
                 </div>
 
                 <div class="hstack gap-3 justify-content-center align-items-center">
-                    <img src="images/email-icon.svg" alt="email-icon">
+                    <img src="images/email-icon.svg" alt="email-icon" class="d-none d-lg-block">
 
                     <div class="vstack justify-content-center gap-1">
                         <h4>Email us here</h4>
@@ -62,30 +63,32 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
+                    <a href="https://yourchoicemiami.org/magnet-application/" target="_blank" class="apply-now-btn d-block d-lg-none">Apply Now</a>
+
                     <div class="collapse navbar-collapse" id="navMenu">
                         <ul class="navbar-nav me-auto">
                             <li class="nav-item">
                                 <a class="nav-link active" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about">About Us</a>
+                                <a class="nav-link" href="../about">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="admissions">Admissions</a>
+                                <a class="nav-link" href="../admissions/">Admissions</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="erp">ERP</a>
+                                <a class="nav-link" href="../erp">ERP</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="students-page">Students Page</a>
+                                <a class="nav-link" href="../students-page">Students Page</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="parents-corner">Parents Corner</a>
+                                <a class="nav-link" href="../parents-corner">Parents Corner</a>
                             </li>
                         </ul>
                     </div>
 
-                    <a class="apply-now-btn">Apply Now</a>
+                    <a href="https://yourchoicemiami.org/magnet-application/" target="_blank" class="apply-now-btn d-none d-lg-block">Apply Now</a>
                 </div>
             </nav>
         </div>
@@ -96,10 +99,17 @@
         <section id="hero">
             <div class="container">
                 <div class="hero-inner">
-                    <h1>
+                    <h1 class="d-none d-lg-block">
                         LAUNCH YOUR CAREER WITH FREE, <br> 
                         HIGH-QUALITY TECH EDUCATION.
                     </h1>
+
+                    <!-- MOBILE -->
+                    <h1 class="d-block d-lg-none">
+                        LAUNCH YOUR CAREER WITH FREE, 
+                        HIGH-QUALITY TECH EDUCATION.
+                    </h1>
+
                     <p>
                         At iTech Academy, students gain real-world skills in data science, coding, 
                         cybersecurity, and business tech—plus mentorship from Forbes Under-30 entrepreneurs—all for free.
@@ -120,10 +130,18 @@
                     <div class="col-lg-3">
                         <div class="left-side">
                             <h3>WHY ITECH?</h3>
-                            <p>
+                            <p class="d-none d-lg-block">
                                 Free education, real-world <br> 
                                 tech skills, and small classes <br> 
                                 where every student gets <br> 
+                                individual attention."
+                            </p>
+
+                            <!-- MOBILE -->
+                            <p class="d-block d-lg-none">
+                                Free education, real-world 
+                                tech skills, and small classes  
+                                where every student gets 
                                 individual attention."
                             </p>
                         </div>
