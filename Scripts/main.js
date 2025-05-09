@@ -20,8 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
-
+// STUDENT SUCCESS SLIDER
 document.addEventListener("DOMContentLoaded", () => {
     const slider = document.querySelector(".slider-students");
     const slides = document.querySelectorAll(".slide-student");
