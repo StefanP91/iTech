@@ -20,38 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-//   DESKTOP SLIDER STUDENT SUCCESS
-// document.addEventListener("DOMContentLoaded", () => {
-//     const slider = document.querySelector(".slider-students");
-//     const slides = document.querySelectorAll(".slide-student");
-//     const nextBtn = document.getElementById("nextBtn");
-//     const prevBtn = document.getElementById("prevBtn");
 
-//     let currentIndex = 0;
-//     let visibleSlides = window.innerWidth <= 435 ? 1 : 3; // Number of slides visible at a time
-//     const totalSlides = slides.length;
-
-//     const updateSliderPosition = () => {
-//         const slideWidth = slides[0].offsetWidth;
-//         slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-//     };
-
-//     nextBtn.addEventListener("click", () => {
-//         if (currentIndex < totalSlides - visibleSlides) {
-//             currentIndex++;
-//             updateSliderPosition();
-//         }
-//     });
-
-//     prevBtn.addEventListener("click", () => {
-//         if (currentIndex > 0) {
-//             currentIndex--;
-//             updateSliderPosition();
-//         }
-//     });
-
-//     updateSliderPosition();
-// });
 
 document.addEventListener("DOMContentLoaded", () => {
     const slider = document.querySelector(".slider-students");
