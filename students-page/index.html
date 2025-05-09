@@ -118,12 +118,12 @@
 
         <!-- NAVIGATION -->
         <section id="navigation">
-            <a href="#">Schedule</a>
-            <a href="#">Club & Activities</a>
-            <a href="#">Handbooks</a>
-            <a href="#">Student Resources</a>
-            <a href="#">Success Stories</a>
-            <a href="#">Apply</a>
+            <a href="#bellSchedule">Schedule</a>
+            <a href="#clubsAndActivities">Club & Activities</a>
+            <a href="#handbooksAndPolicies">Handbooks</a>
+            <a href="#studentResources">Student Resources</a>
+            <a href="#studentSuccess">Success Stories</a>
+            <a href="#footer">Apply</a>
         </section>
 
         <!-- WELCOME -->
@@ -137,11 +137,13 @@
             </p>
 
             <!-- MOBILE -->
-            <p class="d-block d-lg-none">
-                Welcome to the student portal for iTech @ Thomas A. Edison Educational Center! Here, students can find <br> 
-                essential information about schedules, clubs, activities, counseling resources, and much more. Explore the <br> 
-                sections below to stay updated and make the most of your iTech experience.
-            </p>
+           <div class="container">
+                <p class="d-block d-lg-none">
+                    Welcome to the student portal for iTech @ Thomas A. Edison Educational Center! Here, students can find 
+                    essential information about schedules, clubs, activities, counseling resources, and much more. Explore the 
+                    sections below to stay updated and make the most of your iTech experience.
+                </p>
+           </div>
         </section>
 
         <!-- BELL SCHEDULE -->
@@ -253,7 +255,7 @@
     
                     <!-- MOBILE -->
                     <p class="d-block d-lg-none">
-                        At iTech, we believe in providing students with opportunities to engage in extracurricular activities that <br> 
+                        At iTech, we believe in providing students with opportunities to engage in extracurricular activities that 
                         complement their academic growth. Below is a list of clubs and activities available to students: 
                     </p>
                 </div>
@@ -300,7 +302,7 @@
 
             <!-- MOBILE SLIDER -->
             <div class="slider-container-clubs d-block d-lg-none">
-                <div class="slider-clubs img-container">
+                <div class="slider-clubs">
                     <div class="slide-club image image-1">
                         <p>5000 Role Models</p>
                     </div>
@@ -700,8 +702,14 @@
                         <div class="card-volunteer">
                             <img src="images/volunteer-img-1.png" alt="volunteer-img-1">
 
-                            <h6>
+                            <h6 class="d-none d-lg-block">
                                 Community Service <br> 
+                                Projects:
+                            </h6>
+
+                            <!-- MOBILE -->
+                            <h6 class="d-block d-lg-none">
+                                Community Service 
                                 Projects:
                             </h6>
 
@@ -715,8 +723,14 @@
                         <div class="card-volunteer">
                             <img src="images/volunteer-img-2.png" alt="volunteer-img-2">
 
-                            <h6>
+                            <h6 class="d-none d-lg-block">
                                 Service Learning <br> 
+                                Hours:
+                            </h6>
+
+                            <!-- MOBILE -->
+                            <h6 class="d-block d-lg-none">
+                                Service Learning 
                                 Hours:
                             </h6>
 
@@ -730,8 +744,14 @@
                         <div class="card-volunteer">
                             <img src="images/volunteer-img-3.png" alt="volunteer-img-3">
 
-                            <h6>
+                            <h6 class="d-none d-lg-block">
                                 Volunteer <br> 
+                                Opportunities:
+                            </h6>
+
+                            <!-- MOBILE -->
+                            <h6 class="d-block d-lg-none">
+                                Volunteer  
                                 Opportunities:
                             </h6>
 
@@ -910,7 +930,7 @@
                     <div class="interviews">
                         <h6>Alumni Interviews:</h6>
 
-                        <p>
+                        <p class="d-none d-lg-block">
                             Hear from successful <br> 
                             iTech alumni who are <br> 
                             excelling in their careers <br> 
@@ -918,6 +938,18 @@
                             View our Alumni <br> 
                             Interviews here.
                         </p>
+
+                        <!-- MOBILE -->
+                        <div class="container">
+                            <p class="d-block d-lg-none mb-3">
+                                Hear from successful
+                                iTech alumni who are
+                                excelling in their careers
+                                or further education.
+                                View our Alumni
+                                Interviews here.
+                            </p>
+                        </div>
                     </div>
 
                     <div class="slider-buttons">
@@ -1019,13 +1051,24 @@
                     <div class="interviews">
                         <h6>Current Student Spotlights:</h6>
     
-                        <p>
+                        <p class="d-none d-lg-block">
                             Learn how current <br> 
                             students are succeeding <br> 
                             in their academics, <br> 
                             internships, and <br> 
                             extracurriculars.
                         </p>
+
+                        <!-- MOBILE -->
+                        <div class="container">
+                            <p class="d-block d-lg-none">
+                            Learn how current  
+                            students are succeeding  
+                            in their academics,  
+                            internships, and  
+                            extracurriculars.
+                        </p>
+                        </div> 
                     </div>
     
                     <div class="slider-buttons-2">
@@ -1156,7 +1199,7 @@
 
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="card">
             <div class="row h-100">
                 <div class="col-12 col-md-7  h-100">
@@ -1180,7 +1223,7 @@
                             Apply before January 15, 2024 for the regular cycle.
                         </p>
 
-                        <div class="d-flex flex-column flex-sm-row  gap-3">
+                        <div class="d-flex flex-column flex-sm-row align-items-center align-items-lg-start gap-3">
                             <button class="apply-now" data-bs-toggle="modal" data-bs-target="#waitingListModal">Apply Now</button>
 
                             <div>
