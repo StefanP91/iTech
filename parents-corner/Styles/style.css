@@ -907,10 +907,15 @@ footer{
                 margin-left: 20%;
             }
 
-            & p, span{
+            & p{
                 font-weight: 500;
                 font-size: 16px;
+
+                & span{
+                color: #D64242;
+                }
             }
+
 
             & button{
                 border: none;
@@ -926,6 +931,15 @@ footer{
                     transform: scale(1.1);
                     transition: 0.5s ease-in-out;
                 }
+            }
+
+            & a{
+                color: #2E6CDA;
+                text-decoration: underline;
+            }
+
+            & a:hover{
+                color: #0059FF;
             }
         }
 
